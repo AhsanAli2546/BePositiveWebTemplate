@@ -16,9 +16,11 @@
     background-image: linear-gradient(to right,var( --purple),var(--pink)) !important;
     
 }
+
 .text-purple{
   color: var(--purple);
 }
+
 .btn-outline-white{
     color: #fff;
     /*background-image: linear-gradient(to right,var( --purple),var(--pink)) !important;
@@ -71,3 +73,35 @@
   .border-gradient{
     background-image: linear-gradient(to bottom,var( --purple),var(--pink)) !important;
 }
+
+
+@media only screen and (max-width: 770px ) {
+  
+  .btn-outline-white{
+    /*color: #fff;
+    background-image: linear-gradient(to right,var( --purple),var(--pink)) !important;
+    border-image-source: linear-gradient(to right,var( --purple),var(--pink)) !important;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 8px;
+    outline: none;
+    border: 1px solid white;*/
+    font-size: small;
+    padding: 4px;
+  }
+
+  .btn-white{
+    /*color: var(--purple);
+    background-image: linear-gradient(to right,var( --purple),var(--pink)) !important;
+    border-image-source: linear-gradient(to right,var( --purple),var(--pink)) !important;
+    background-color: white;
+    border-radius: 8px;
+    
+    outline: none;
+    border: none;*/
+    font-size: small;
+    padding: 4px;
+  }
+
+}
+

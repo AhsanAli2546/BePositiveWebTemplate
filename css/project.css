@@ -65,9 +65,10 @@
 }
 
 .img-right{
-    width: 310px;
+    width: 280px;
+    height: 400px;
     position: absolute;
-    top:0px;
-    right: -100px;
+    top:30px;
+    right: 0px !important;
     z-index: -1;
 }
